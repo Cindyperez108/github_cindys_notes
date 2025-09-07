@@ -19,21 +19,23 @@ They're really technical words, but they're necessary to better understand the G
 
 **Pull request:** when we're collaborating and we have made changes so, we already review them, we'll update the document by merging the "old" version with the reviewed one trough this process.
 
-**Push:** synonym for updating the file
+**Push:** synonym for updating the file (green ascending arrow).
 
-**Pull:** when we download the most recent version of the file
+**Pull:** when we download the most recent version of the file (blue descending arrow).
 
 **Branch:** think on"divided & conquer". We have 2 types the main and secondaries. The main branch is where we create the document. While, the secondary branch is for each of the collaborators or sections, each of these branches after pushing and accepting the pull request will be included in the main branch.
 
-**Repository:** the equivalent of an R-project
+**Repository:** the equivalent of an R-project.
 
-**Commit:** the notes that we made for a milestone during changes in the document, could be major or minor edits.
+**Commit:** the notes that we made for a milestone during changes in the document, could be major or minor edits (documents with a check).
 
 Fun fact, the difference between Git and Github, as is indicated in the name Github is a hub of gits (and other stuff). The formal definitions are:
 
 **GitHub** is a *cloud-based* platform that hosts Git repositories. It is a web service built on top of Git.
 
 **Git** is a free, open-source distributed version control system (DVCS). It is a *software* tool installed locally on a developer's machine.
+
+NOTE: as we have Git in R, we will have that new tab on the environments panel. Here we will see the bottoms that I described in the parenthesis.
 
 ## First steps
 
@@ -58,8 +60,14 @@ To commit: we need to check the documents/files we're interested to upload (save
 
     **NOTE: The order matters! So, remembered that tip ;)**
 
-Creating secondary branches so we can collaborate, made our own modifications, review them and do a pull-request! (the main goal of this workshop). When I learnt it, I found it pretty confusing but necessary (& helpful) for doing Science.
+Creating secondary branches so we can collaborate, made our own modifications, review them and do a pull-request! (the main goal of this workshop). When I learnt it, I found it pretty confusing but necessary (& helpful) for doing Science. How to do it? (Step by step)
 
-## The excersie:
+1.  On the Git section, we will see where we're located. In this case should be "main", as we haven't create other branches yet. If we click on the arrow, a menu will be displayed with the branches we've created.
+
+2.  Right now, it's empty, so let's go to Github, in our repository (i.e., github_cindys_notes), just belowe the name on the left we will see main bottom.
+
+3.  If we click on it and type the name of our branch we'll create a new one, also here is where we can modify the branches. This
+
+## The excersice:
 
 The best way to learn is trough practice, that means we will made lots of mistakes but that's the best way to learn, because you'll remember the struggle and the solutions.
