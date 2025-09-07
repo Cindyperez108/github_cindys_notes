@@ -1,0 +1,44 @@
+---
+title: "Notes_pipeline"
+author: "Cindy P."
+format: html
+editor: visual
+---
+
+## Pre-steps
+
+Download [git](https://git-scm.com/downloads), R+RStudio (<https://posit.co/download/rstudio-desktop/>)
+
+Create a [Github](https://github.com/) account\* remember the email/username + SSH key (please, follow the steps from Generating a new SSH key & Testing your SSH connection).
+
+In R install the library "usethis"
+
+## Glossary
+
+They're really technical words, but they're necessary to better understand the Github terms. I simplify the concept so is easier to follow this workshop.
+
+**Pull request:** when we're collaborating and we have made changes so, we already review them, we'll update the document by merging the "old" version with the reviewed one trough this process.
+
+**Push:** synonym for updating the file
+
+**Pull:** when we download the most recent version of the file
+
+**Branch:** think on"divided & conquer". We have 2 types the main and secondaries. The main branch is where we create the document. While, the secondary branch is for each of the collaborators or sections, each of these branches after pushing and accepting the pull request will be included in the main branch.
+
+**Repository:** the equivalent of an R-project
+
+**Commit:** the notes that we made for a milestone during changes in the document, could be major or minor edits.
+
+Fun fact, the difference between Git and Github, as is indicated in the name Github is a hub of gits (and other stuff). The formal definitions are:
+
+**GitHub** is a *cloud-based* platform that hosts Git repositories. It is a web service built on top of Git.
+
+**Git** is a free, open-source distributed version control system (DVCS). It is a *software* tool installed locally on a developer's machine.
+
+## First steps
+
+Before starting we should verify everything is runing well and prepare our set-up, for that we should have:
+
+Git installed and synchronized with our Github account (SSH key with a successful connection).
+
+library(usethis) use_git_config(user.name = "your.user.name", user.email = "same.as.gitub")
