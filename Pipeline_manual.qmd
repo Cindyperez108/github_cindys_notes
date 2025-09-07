@@ -99,3 +99,11 @@ To swicth branches (in RStudio) is in the Git menu, click on the arrow, display 
 ## Goodbye
 
 For the moment that's everything! Hope you enjoy it and I successfully simplify this new tool! Thank you :)
+
+#From the secondary branch
+
+I double check on my Github repository and I had teh message I was behing 3 steps, so my documents were not the same just the 2 first and half of the document so first I had to solve the pull request, then pull, now doing my modifications and then save, commit, pull and sycrhonize it with the main one, so after finishing this I'll do once again another pull request to update this part to the main one by merging them.
+
+When everything is good in Github we have this message : "Pull request successfully merged and closed
+
+You're all set — the branch has been merged."
