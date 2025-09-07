@@ -66,7 +66,13 @@ Creating secondary branches so we can collaborate, made our own modifications, r
 
 2.  Right now, it's empty, so let's go to Github, in our repository (i.e., github_cindys_notes), just belowe the name on the left we will see main bottom.
 
-3.  If we click on it and type the name of our branch we'll create a new one, also here is where we can modify the branches. This
+3.  If we click on it and type the name of our branch we'll create a new one, also here is where we can modify the branches. This message should appear "This branch is up to date", meaning everything is well sychronized and we'll NOT have conflicts.
+
+4.  We can haver messages that how many steps behind or above are from the main branch, and we can pull and push until we have the safe message if not, that means we're in trouble.
+
+5.  But we can find the solution no worries! We just need to do the pull request and see on the Github editor where is the problem, solved and all good.
+
+6.  Repeat our steps: pull (from cloud to PC) -\>safe changes-\> commit (be as explicit so your future self understands what you were doing)-\> Push (PC to cloud)
 
 ## The excersice:
 
