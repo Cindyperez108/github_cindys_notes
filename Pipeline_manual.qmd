@@ -39,6 +39,27 @@ Fun fact, the difference between Git and Github, as is indicated in the name Git
 
 Before starting we should verify everything is runing well and prepare our set-up, for that we should have:
 
-Git installed and synchronized with our Github account (SSH key with a successful connection).
+-   Git installed and synchronized with our Github account (SSH key with a successful connection).
 
-library(usethis) use_git_config(user.name = "your.user.name", user.email = "same.as.gitub")
+-   library(usethis) use_git_config(user.name = "your.user.name", user.email = "same.as.gitub")
+
+**Hands-on:**
+
+1.  Create a repository for working (as is the first time we might use a Token from Github\*)
+2.  Create a new R project\> control version\> Git\> copy our link from Github
+    1.  If it auto-completes means we're all good! If not we need to double check the token or the SSH key.
+3.  Voila! We're ready to work :)
+
+## The theory
+
+To commit: we need to check the documents/files we're interested to upload (save them). So from ? will pass to A (selected), write my note in Commit, immediately after Push.
+
+-   If we modified something a "M" will appear, when we're ready to push again repeat the process: save changes, commit, push. In case I was working with another version from another branch first I need to Pull, modify, save changes, commit and push.
+
+    **NOTE: The order matters! So, remembered that tip ;)**
+
+Creating secondary branches so we can collaborate, made our own modifications, review them and do a pull-request! (the main goal of this workshop). When I learnt it, I found it pretty confusing but necessary (& helpful) for doing Science.
+
+## The excersie:
+
+The best way to learn is trough practice, that means we will made lots of mistakes but that's the best way to learn, because you'll remember the struggle and the solutions.
