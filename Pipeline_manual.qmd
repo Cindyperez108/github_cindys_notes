@@ -77,3 +77,25 @@ Creating secondary branches so we can collaborate, made our own modifications, r
 ## The excersice:
 
 The best way to learn is trough practice, that means we will made lots of mistakes but that's the best way to learn, because you'll remember the struggle and the solutions.
+
+By accident, I create a conflict in the versions even in the main branch, the solution a pull request! So, Github detects the conflicts, it warned me with the message "this branch is (in this case just 1) 1 step behind", check the pull request, then I opened it, see what's missing on my document and see the changes, modify them (accept/reject) and then when everything is good, we can press the bottom "merge full request" we can add comments so we remember what happened. So, after that I *pull* so I can have the latest version without conflicts, do more edits if needed safe, commit, push.
+
+### From secondary branches
+
+So, each branch is an individual independet copy of the file(s), so we need to pull,commit,push so everything is synchronized and as this happens the main branch or even we can assign to someone else to review or changes. Here is the key to do collaborative work.
+
+1.  Verify that you're in your branch (or dessired branch)
+
+2.  Work and do our mantra steps in order
+
+3.  Pull request
+
+4.  Repeat
+
+**What happened if I'm not in my branch and I work in someone's branch?** Well, If you're lucky that person wasn't working at the same time if not the most fatal error could happen and we could even lose it :( so, to avoid this, please, verified your position. We still having back-ups every previous time that we push so we could recover the previous version and work from there. Or if we detected on time, we can do a side back-up somewhere else so, you don't lost that progress, and reject those changes and safe the day. We can always check in Internet discussions any suggestions.
+
+To swicth branches (in RStudio) is in the Git menu, click on the arrow, display the menu and select our branch, do a pull and work.
+
+## Goodbye
+
+For the moment that's everything! Hope you enjoy it and I successfully simplify this new tool! Thank you :)
