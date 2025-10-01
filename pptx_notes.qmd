@@ -1,0 +1,108 @@
+---
+title: "pptx"
+format: revealjs
+editor: visual
+---
+
+## Pre-steps
+
+Download [git](https://git-scm.com/downloads), R+RStudio (<https://posit.co/download/rstudio-desktop/>)
+
+Create a [Github](https://github.com/) account\* remember the email/username + SSH key (please, follow the steps from Generating a new SSH key & Testing your SSH connection).
+
+In R install the library "usethis"
+
+## Glossary
+
+They're really technical words, but they're necessary to better understand the Github terms. I simplify the concept so is easier to follow this workshop.
+
+**Pull request:** when we're collaborating and we have made changes so, we already review them, we'll update the document by merging the "old" version with the reviewed one trough this process.
+
+**Push:** synonym for updating the file (green ascending arrow).
+
+**Pull:** when we download the most recent version of the file (blue descending arrow).
+
+**Branch:** think on"divided & conquer". We have 2 types the main and secondaries. The main branch is where we create the document. While, the secondary branch is for each of the collaborators or sections, each of these branches after pushing and accepting the pull request will be included in the main branch.
+
+**Repository:** the equivalent of an R-project.
+
+**Commit:** the notes that we made for a milestone during changes in the document, could be major or minor edits (documents with a check).
+
+Fun fact, the difference between Git and Github, as is indicated in the name Github is a hub of gits (and other stuff). The formal definitions are:
+
+**GitHub** is a *cloud-based* platform that hosts Git repositories. It is a web service built on top of Git.
+
+**Git** is a free, open-source distributed version control system (DVCS). It is a *software* tool installed locally on a developer's machine.
+
+NOTE: as we have Git in R, we will have that new tab on the environments panel. Here we will see the bottoms that I described in the parenthesis.
+
+## First steps
+
+Before starting we should verify everything is runing well and prepare our set-up, for that we should have:
+
+-   Git installed and synchronized with our Github account (SSH key with a successful connection).
+
+-   library(usethis) use_git_config(user.name = "your.user.name", user.email = "same.as.gitub")
+
+**Hands-on:**
+
+1.  Create a repository for working (as is the first time we might use a Token from Github\*)
+2.  Create a new R project\> control version\> Git\> copy our link from Github
+    1.  If it auto-completes means we're all good! If not we need to double check the token or the SSH key.
+3.  Voila! We're ready to work :)
+
+## The theory
+
+To commit: we need to check the documents/files we're interested to upload (save them). So from ? will pass to A (selected), write my note in Commit, immediately after Push.
+
+-   If we modified something a "M" will appear, when we're ready to push again repeat the process: save changes, commit, push. In case I was working with another version from another branch first I need to Pull, modify, save changes, commit and push.
+
+    **NOTE: The order matters! So, remembered that tip ;)**
+
+Creating secondary branches so we can collaborate, made our own modifications, review them and do a pull-request! (the main goal of this workshop). When I learnt it, I found it pretty confusing but necessary (& helpful) for doing Science. How to do it? (Step by step)
+
+1.  On the Git section, we will see where we're located. In this case should be "main", as we haven't create other branches yet. If we click on the arrow, a menu will be displayed with the branches we've created.
+
+2.  Right now, it's empty, so let's go to Github, in our repository (i.e., github_cindys_notes), just belowe the name on the left we will see main bottom.
+
+3.  If we click on it and type the name of our branch we'll create a new one, also here is where we can modify the branches. This message should appear "This branch is up to date", meaning everything is well sychronized and we'll NOT have conflicts.
+
+4.  We can haver messages that how many steps behind or above are from the main branch, and we can pull and push until we have the safe message if not, that means we're in trouble.
+
+5.  But we can find the solution no worries! We just need to do the pull request and see on the Github editor where is the problem, solved and all good.
+
+6.  Repeat our steps: pull (from cloud to PC) -\>safe changes-\> commit (be as explicit so your future self understands what you were doing)-\> Push (PC to cloud)
+
+## The excersice:
+
+The best way to learn is trough practice, that means we will made lots of mistakes but that's the best way to learn, because you'll remember the struggle and the solutions.
+
+By accident, I create a conflict in the versions even in the main branch, the solution a pull request! So, Github detects the conflicts, it warned me with the message "this branch is (in this case just 1) 1 step behind", check the pull request, then I opened it, see what's missing on my document and see the changes, modify them (accept/reject) and then when everything is good, we can press the bottom "merge full request" we can add comments so we remember what happened. So, after that I *pull* so I can have the latest version without conflicts, do more edits if needed safe, commit, push.
+
+### From secondary branches
+
+So, each branch is an individual independet copy of the file(s), so we need to pull,commit,push so everything is synchronized and as this happens the main branch or even we can assign to someone else to review or changes. Here is the key to do collaborative work.
+
+1.  Verify that you're in your branch (or dessired branch)
+
+2.  Work and do our mantra steps in order
+
+3.  Pull request
+
+4.  Repeat
+
+**What happened if I'm not in my branch and I work in someone's branch?** Well, If you're lucky that person wasn't working at the same time if not the most fatal error could happen and we could even lose it :( so, to avoid this, please, verified your position. We still having back-ups every previous time that we push so we could recover the previous version and work from there. Or if we detected on time, we can do a side back-up somewhere else so, you don't lost that progress, and reject those changes and safe the day. We can always check in Internet discussions any suggestions.
+
+To swicth branches (in RStudio) is in the Git menu, click on the arrow, display the menu and select our branch, do a pull and work.
+
+## Goodbye
+
+For the moment that's everything! Hope you enjoy it and I successfully simplify this new tool! Thank you :)
+
+#From the secondary branch
+
+I double check on my Github repository and I had teh message I was behing 3 steps, so my documents were not the same just the 2 first and half of the document so first I had to solve the pull request, then pull, now doing my modifications and then save, commit, pull and sycrhonize it with the main one, so after finishing this I'll do once again another pull request to update this part to the main one by merging them.
+
+When everything is good in Github we have this message : "Pull request successfully merged and closed
+
+You're all set — the branch has been merged."
